@@ -1,5 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&family=Ropa+Sans&display=swap');
+
+
 header{
-    text-align: start;
+
+}
+
+body{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 697px;
+    border: 0.5px solid #8888888e;
+    font-family: 'Ropa Sans';
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
 }
 
 ul{
@@ -10,35 +24,51 @@ ul{
 }
 
 li{
-    text-align: end; 
+    text-align: right; 
     display: inline-block;
     padding: 20px; 
     color: antiquewhite;
     font-size: 16px;
-    font-family: 'Lucida Sans', sans-serif;
+    font-family: 'Ropa Sans';
     margin-bottom: 10px;   
     
 }
+section.destaque {
+    text-align: center;
+}
+
+article{ 
+    float: left;
+    width: 30%;
+    padding: 60px;
+    text-align: justify;
+    font-size: 10px;
+
+}
+
+h2 {
+width: 266px;
+height: 33px;
+font-family: 'Ropa Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #888888;
+}
 
 footer{
-    width: 697px;
-    height: 243px;
-    top: 657px;
-    left: -446px;
-    background-color: #333333;
+    border-style: hidden;
+
 }
 
-.info1 {
+section.rodape{
+    background-color: #333333;
     position: absolute;
-    width: 175px;
-    height: 95px;
-    
-    font-family: 'Ropa Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 13px;
-    text-align: justify;
-    
-    color: #FFFFFF;
+    width: 697px;
+    height: 243px;
 }
+
