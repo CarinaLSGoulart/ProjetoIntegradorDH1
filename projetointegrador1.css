@@ -1,0 +1,44 @@
+header{
+    text-align: start;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+     
+}
+
+li{
+    text-align: end; 
+    display: inline-block;
+    padding: 20px; 
+    color: antiquewhite;
+    font-size: 16px;
+    font-family: 'Lucida Sans', sans-serif;
+    margin-bottom: 10px;   
+    
+}
+
+footer{
+    width: 697px;
+    height: 243px;
+    top: 657px;
+    left: -446px;
+    background-color: #333333;
+}
+
+.info1 {
+    position: absolute;
+    width: 175px;
+    height: 95px;
+    
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: justify;
+    
+    color: #FFFFFF;
+}
