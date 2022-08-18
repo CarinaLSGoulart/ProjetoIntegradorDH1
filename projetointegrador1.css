@@ -1,5 +1,30 @@
-header{
-    text-align: start;
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&family=Ropa+Sans&display=swap');
+
+
+body{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 697px;
+    border: 0.5px solid #8888888e;
+    font-family: 'Ropa Sans';
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+}
+
+div.logotipo {
+    float: left;
+    width: 30%;
+    padding: 30px;
+    text-align: justify;
+    font-size: 10px;
+}
+
+div.menu {
+    float: right;
+    padding: 10px;
+    text-align: justify;
+    font-size: 10px;
 }
 
 ul{
@@ -10,35 +35,93 @@ ul{
 }
 
 li{
-    text-align: end; 
+    text-align: right; 
     display: inline-block;
     padding: 20px; 
     color: antiquewhite;
     font-size: 16px;
-    font-family: 'Lucida Sans', sans-serif;
+    font-family: 'Ropa Sans';
     margin-bottom: 10px;   
     
 }
-
-footer{
-    width: 697px;
-    height: 243px;
-    top: 657px;
-    left: -446px;
-    background-color: #333333;
+section.destaque {
+    text-align: center;
 }
 
-.info1 {
+article.new { 
+    float: left;
+    width: 30%;
+    padding: 60px;
+    text-align: justify;
+    font-size: 10px;
+}
+
+article.sale { 
+    float: left;
+    width: 30%;
+    padding: 60px;
+    text-align: justify;
+    font-size: 10px;
+
+}
+
+.industrial1 {
     position: absolute;
-    width: 175px;
-    height: 95px;
-    
+}
+
+.industrial2 {
+    position: relative;
+}
+
+.modern1 {
+    position: absolute;
+}
+
+.modern2 {
+    position: relative;
+}
+
+.classic1{
+    position: absolute;
+}
+
+.classic2 {
+    position: relative;
+}
+
+
+
+h2 {
+width: 266px;
+height: 33px;
+font-family: 'Ropa Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #888888;
+}
+
+footer{
+    border-style: hidden;
+   
+}
+
+article.texto {
     font-family: 'Ropa Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 13px;
+    font-size: 16px;
+    line-height: 20px;
     text-align: justify;
-    
     color: #FFFFFF;
 }
+
+section.rodape{
+    background-color: #333333;
+        
+}
+
